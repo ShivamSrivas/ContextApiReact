@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// There two ways you can use ContextApi
+// You can uncomment any of this from every folder and just go to terminal do npm start
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// WAY 1: ------BELOW------->
 
-export default App;
+// import React from 'react';
+// import Consumer from './Consumer';
+// import MyProvider from './Provider';
+
+// function App() {
+//   return (
+//     <MyProvider/>
+//   );
+// }
+
+// export default App;
+
+// WAY 2: ------BELOW------->
+// import React from 'react'
+// import Provider from './Provider'
+// export default function App() {
+//   return <Provider/> 
+// }
